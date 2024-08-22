@@ -1,0 +1,28 @@
+{
+  "name": "api-base",
+  "version": "1.0.0",
+  "description": "api base en nodejs",
+  "main": "index.js",
+  "scripts": {
+    "test": "test",
+    "dev": "node app/server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pperezitu/node-api.git"
+  },
+  "author": "pedroperezitu",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/pperezitu/node-api/issues"
+  },
+  "homepage": "https://github.com/pperezitu/node-api#readme",
+  "devDependencies": {
+    "@eslint/js": "^9.9.0",
+    "eslint": "^9.9.0",
+    "globals": "^15.9.0"
+  },
+  "dependencies": {
+    "express": "^4.19.2"
+  }
+}
